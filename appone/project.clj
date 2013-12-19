@@ -9,7 +9,7 @@
 				[apptwo/apptwo "0.1.0-SNAPSHOT"]]
   :plugins [[lein-cljsbuild "1.0.1-SNAPSHOT"]]
   :cljsbuild {:builds
-               [{:source-paths ["src/appone/cljs"],
+               [{:source-paths ["src/appone/cljs" "checkouts/apptwo/src/cljs"],
                  :compiler
                  {:pretty-print true,
                   :output-to "resources/generated/appone.js",
